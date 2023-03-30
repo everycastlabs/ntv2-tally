@@ -1,6 +1,7 @@
 # aja apps
 if (AJA_BUILD_APPS)
     # aja core demos
+    aja_add_subdirectory(crossplatform/demoapps/everyajatally)
     aja_add_subdirectory(crossplatform/demoapps/ntv2burn)
     aja_add_subdirectory(crossplatform/demoapps/ntv2burn4kquadrant)
     aja_add_subdirectory(crossplatform/demoapps/ntv2capture)

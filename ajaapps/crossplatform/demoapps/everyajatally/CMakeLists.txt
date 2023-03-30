@@ -9,9 +9,9 @@ set(TARGET_INCLUDE_DIRS
 	${AJA_LIB_RETAIL_ROOT}/services)
 
 set(NTV2CAPTURE_HEADERS
-	everyajatally.h)
+	ntv2tallygrabber.h)
 set(NTV2CAPTURE_SOURCES
-	everyajatally.cpp
+	ntv2tallygrabber.cpp
 	grab.cpp)
 
 set(DEMO_APPS_SOURCES
